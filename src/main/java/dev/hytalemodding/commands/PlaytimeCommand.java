@@ -23,6 +23,11 @@ public class PlaytimeCommand extends AbstractCommand {
         this.database = database;
     }
 
+    @Override
+    protected boolean canGeneratePermission() {
+        return false;
+    }
+
     @Nullable
     @Override
     protected CompletableFuture<Void> execute(@Nonnull CommandContext context) {
