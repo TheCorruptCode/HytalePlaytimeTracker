@@ -1,0 +1,20 @@
+{
+  "Group": "dev.hytalemodding",
+  "Name": "PlaytimePlugin",
+  "Version": "1.0.0",
+  "Description": "A simple Playtime Tracker mod",
+  "Authors": [
+    {
+      "Name": "CorruptCode",
+      "Email": "your.email@example.com",
+      "Url": "https://your-website.com"
+    }
+  ],
+  "Website": "https://your-plugin-website.com",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "Main": "dev.hytalemodding.PlaytimePlugin"
+}
